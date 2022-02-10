@@ -55,7 +55,7 @@ Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch 
 
 1. ⚛️ Electron support for desktop apps
 2. 📦 Webpack just for build to minimize file size
-3. 🗳️ MobX State Management
+3. 🗳️ MobX State Management ✅ (completed)
 4. 📄 Github Pages Support
 5. 📝 Better documentation (You can help with this one)
 
