@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-//import the different pages from the pages folder
-//add your own pages here
-import { Home, About } from './Pages/';
+import { observer } from 'mobx-react-lite';
 
 import './App.css';
 
-interface AppProps {}
+//import the different pages from the pages folder
+//add your own pages here
+import { Home, About } from './Pages/';
+import { store } from './Store';
 
-function App({}: AppProps) {
+const App = () => {
   return (
     <HashRouter>
       <Routes>
@@ -17,6 +18,6 @@ function App({}: AppProps) {
       </Routes>
     </HashRouter>
   );
-}
+};
 
 export default App;
