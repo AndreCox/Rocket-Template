@@ -15,9 +15,11 @@ How does this solve the problem...
 
 4. 🚦Routing built in by default
 
-5. ⌨️ Typescript over Javascript , catch stupid errors fast
+5. 🗳️ MobX State Management
 
-6. 🧪 Testing set up now so you don't have to worry later
+6. ⌨️ Typescript over Javascript , catch stupid errors fast
+
+7. 🧪 Testing set up now so you don't have to worry later
 
 ## Available Scripts
 
@@ -55,9 +57,8 @@ Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch 
 
 1. ⚛️ Electron support for desktop apps
 2. 📦 Webpack just for build to minimize file size
-3. 🗳️ MobX State Management ✅ (completed)
-4. 📄 Github Pages Support
-5. 📝 Better documentation (You can help with this one)
+3. 📄 Github Pages Support
+4. 📝 Better documentation (You can help with this one)
 
 # Reporting Issues ⚠️
 
