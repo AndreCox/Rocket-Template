@@ -9,7 +9,8 @@ This project was created to solve a lot of issues I had with standard react app 
 How does this solve the problem...
 
 1. 📦 Uses Snowpack over Webpack for incredibly fast build/update times < 50 ms
-2. 🪶 Comes with Tailwindcss by default; no more thinking up css class names while still being lightweight
+
+3. 🪶 Comes with Tailwindcss by default; no more thinking up css class names while still being lightweight
 
 3. 📱 Fully cross platform, you can create your web app, then deploy to both IOS and Android
 
@@ -20,6 +21,8 @@ How does this solve the problem...
 6. ⌨️ Typescript over Javascript , catch stupid errors fast
 
 7. 🧪 Testing set up now so you don't have to worry later
+
+8. 📦 Webpack just for build to minimize file size
 
 ## Available Scripts
 
@@ -56,7 +59,6 @@ Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch 
 # Future Features ⏩
 
 1. ⚛️ Electron support for desktop apps
-2. 📦 Webpack just for build to minimize file size
 3. 📄 Github Pages Support
 4. 📝 Better documentation (You can help with this one)
 
