@@ -19,6 +19,16 @@ How does this solve the problem...
 
 6. 🧪 Testing set up now so you don't have to worry later
 
+## Basic Setup
+
+### Install dependencies
+
+Issue a `npm install` to install the required dependencies.
+
+### Setup Github Pages
+
+change `homepage` in `package.json` and `buildOptions.baseUrl` to your Github Pages url for this template the url is `https://andrecox.github.io/Rocket-Template`.
+
 ## Available Scripts
 
 ### npm start

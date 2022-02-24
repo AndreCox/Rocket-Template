@@ -1,8 +1,17 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
   mount: {
-    public: { url: '/', static: true },
+    public: {
+      url: '/',
+      static: true,
+      dot: true,
+    },
     src: { url: '/dist' },
+  },
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: 'es2018',
   },
   plugins: [
     '@snowpack/plugin-react-refresh',
@@ -16,6 +25,8 @@ export default {
         ...(process.versions.pnp ? { tsc: 'yarn pnpify tsc' } : {}),
       },
     ],
+    // optimize the build for production
+    ['@snowpack/plugin-webpack', {}],
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
@@ -32,6 +43,7 @@ export default {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    //set base url here
+    baseUrl: 'https://andrecox.github.io/Rocket-Template',
   },
 };
